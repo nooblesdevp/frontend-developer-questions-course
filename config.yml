@@ -1,0 +1,16 @@
+title: Frontend Developer Questions
+description: Frontend Developer Questions
+template:
+  repo: frontend-developer-questions-template
+  name: frontend-developer-questions
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
